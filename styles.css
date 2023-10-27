@@ -51,12 +51,11 @@ header ul li a:hover {
     justify-content: space-between;
     align-items: center;
     padding: 20px 0;
-    /* add spacing between the imaage and text */
     column-gap: 60px;
 }
 
 .overview-hero-image > img {
-    width: 150px;
+    width: 170px;
 }
 
 /* Learn About Section */
@@ -90,3 +89,31 @@ header ul li a:hover {
     font-size: 21px;
     color: #48BB78;
 }
+
+/* COVID-19 Testing Section */
+.testing {
+    background-color: #4A5568;
+    color: white;
+    padding: 40px 0;
+    margin-top: 40px;
+}
+
+.testing .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 60px;
+}
+
+.testing a.btn {
+    background-color: #48BB78;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 10px 20px;
+    width: 150px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+
