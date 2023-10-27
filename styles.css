@@ -146,3 +146,38 @@ header ul li a:hover {
     color: #5A67D8;
 }
 
+/* Newsletter Section */
+.newsletter {
+    background-color: #48BB78;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.newsletter form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5px;
+}
+
+.newsletter input[type="email"] {
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    width: 300px;
+}
+
+.newsletter button {
+    background-color: #5A67D8;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    width: 150px;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+
+
