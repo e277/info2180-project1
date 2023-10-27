@@ -117,3 +117,32 @@ header ul li a:hover {
     text-align: center;
 }
 
+/* Recent Stories Section */
+.stories {
+    margin-top: 80px;
+}
+
+.stories article {
+    display: flex;
+    align-items: center;
+    column-gap: 40px;
+    margin-bottom: 20px;
+}
+
+.stories img {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    object-fit: cover;
+    aspect-ratio: 1/1;
+}
+
+.stories h2, .stories + p {
+    color: #5A67D8;
+}
+
+.stories a {
+    text-decoration: none;
+    color: #5A67D8;
+}
+
