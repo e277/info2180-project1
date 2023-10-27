@@ -12,6 +12,7 @@ body {
     width: 100%;
 }
 
+/* Header */
 header {
     background-color: white;
     font-size: 18px;
@@ -38,4 +39,23 @@ header ul li a {
 
 header ul li a:hover {
     color: #5A67D8;
+}
+
+/* Overview */
+.overview-hero {
+    background-color: #E2E8F0;
+}
+
+.overview-hero .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    /* add spacing between the imaage and text */
+    column-gap: 60px;
+}
+
+.overview-hero-image > img {
+    width: 150px;
+    /* height: 100px; */
 }
