@@ -85,3 +85,8 @@ header ul li a:hover {
 .card img {
     width: 100%;
 }
+
+.card h3 {
+    font-size: 21px;
+    color: #48BB78;
+}
