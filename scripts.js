@@ -7,7 +7,10 @@ window.onload = function() {
     button.addEventListener("click", (event) => {
         event.preventDefault();
 
-        if (email.value === "") {
+        // Regular expression for email validation
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+        if (email.value === "" || !emailRegex.test(email.value)) {
             message.innerHTML = "Please enter a valid email address";
         } else {
             message.innerHTML = `Thank you! Your email address ${email.value} has been added to our mailing list!`;
